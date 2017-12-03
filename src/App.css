@@ -26,27 +26,9 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-
-.birdAnimation {
-  /* animation-duration:  ; */
-  /* animation-fill-mode: forwards; */
-}
-@keyframes down {
-  0% {
-    transform: translate(0%, 0%); 
-    background: yellow;
-  }
-  100% {
-    transform: translate(100px, 380px)
-  }
-}
-
-@keyframes up {
-  0% {
-    background: red;
-    transform: translate(0%, 0%) 
-  }
-  100% {
-    transform: translateY(-100px)
-  }
+#fackingCanvas {
+  border: 1px solid #000;
+  overflow: hidden;
+  position: relative;
+  background-color: #70C5Cf;
 }
